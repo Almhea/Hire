@@ -13,20 +13,21 @@ export default function DataPrivacy() {
       <div className="relative z-10 bg-white rounded-2xl shadow-2xl w-full max-w-2xl flex flex-col" style={{ height: "85vh" }}>
 
         {/* Header - sticky, does not scroll */}
-        <div className="relative flex items-center justify-center px-8 pt-6 pb-4 border-b border-slate-100 flex-shrink-0">
+        <div className="relative flex items-center justify-center px-6 pt-4 pb-3 border-b border-slate-100 flex-shrink-0">
           <button
             onClick={() => navigate(-1)}
-            className="absolute left-8 w-10 h-10 flex items-center justify-center rounded-full border border-slate-300 hover:bg-slate-100 transition text-slate-600"
+            className="absolute left-6 w-7 h-7 flex-shrink-0 flex items-center justify-center rounded-full border border-slate-400 hover:bg-slate-100 transition text-slate-600"
+            style={{ fontSize: "11px" }}
           >
             ←
           </button>
-          <div className="border-2 border-slate-400 rounded-xl px-5 py-1.5">
-            <h1 className="text-sm font-bold" style={{ color: "#000000" }}>Data Privacy Notice</h1>
+          <div className="border border-black rounded-full px-3 py-0.5">
+            <span className="font-semibold text-black" style={{ fontSize: "22px" }}>Data Privacy Notice</span>
           </div>
         </div>
 
         {/* Scrollable content area */}
-        <div className="flex-1 overflow-y-auto px-8 py-4 text-sm text-slate-700 leading-relaxed space-y-4 text-left">
+        <div className="flex-1 overflow-y-auto px-8 py-4 text-xs text-slate-700 leading-relaxed space-y-4 text-left">
           <p>
             At H!RE, we are committed to protecting your privacy. This Data Privacy Notice explains
             how we collect, use, and secure your personal information when you use our AI-powered

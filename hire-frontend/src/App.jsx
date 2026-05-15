@@ -7,6 +7,7 @@ import './App.css'
 import Home from "./pages/Home";
 import CreateCompany from "./pages/CreateCompany";
 import DataPrivacy from "./pages/DataPrivacy";
+import CompanyDocuments from "./pages/CompanyDocuments";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/create-company" element={<CreateCompany />} />
         <Route path="/data-privacy" element={<DataPrivacy />} />
+        <Route path="/company-documents" element={<CompanyDocuments />} />
         {/* <Route path="/login-owner" element={<LoginOwner />} /> */}
         {/* <Route path="/login-company" element={<LoginCompany />} /> */}
         {/* <Route path="/login-admin" element={<LoginAdmin />} /> */}

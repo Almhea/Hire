@@ -35,6 +35,7 @@ export default function CreateCompany() {
     }
     // TODO: connect to Django API
     console.log("Create company:", form);
+    navigate("/company-documents");
   };
 
   return (
