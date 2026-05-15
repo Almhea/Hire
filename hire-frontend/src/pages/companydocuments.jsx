@@ -146,6 +146,7 @@ export default function CreateCompany() {
             Click Here
           </span>
         </p>
+        
 
         {/* Checkbox row */}
         <div className="flex items-center gap-2 mt-3">
